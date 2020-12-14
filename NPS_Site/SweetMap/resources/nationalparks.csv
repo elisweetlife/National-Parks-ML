@@ -1,0 +1,63 @@
+nationalpark_id,park_name,parkID,surveyName,fullName,park_name,parkCode,designation,states,url
+1,Acadia,1,Acadia,Acadia National Park,Acadia,acad,National Park,ME,https://www.nps.gov/acad/index.htm
+2,National Park of American Samoa,2,American Samoa,National Park of American Samoa,National Park of American Samoa,npsa,,AS,https://www.nps.gov/npsa/index.htm
+3,Arches,3,Arches,Arches National Park,Arches,arch,National Park,UT,https://www.nps.gov/arch/index.htm
+4,Badlands,4,Badlands,Badlands National Park,Badlands,badl,National Park,SD,https://www.nps.gov/badl/index.htm
+5,Big Bend,5,Big Bend,Big Bend National Park,Big Bend,bibe,National Park,TX,https://www.nps.gov/bibe/index.htm
+6,Biscayne,6,Biscayne,Biscayne National Park,Biscayne,bisc,National Park,FL,https://www.nps.gov/bisc/index.htm
+7,Black Canyon Of The Gunnison,7,Black Canyon of the Gunnison,Black Canyon Of The Gunnison National Park,Black Canyon Of The Gunnison,blca,National Park,CO,https://www.nps.gov/blca/index.htm
+8,Bryce Canyon,8,Bryce Canyon,Bryce Canyon National Park,Bryce Canyon,brca,National Park,UT,https://www.nps.gov/brca/index.htm
+9,Canyonlands,9,Canyonlands,Canyonlands National Park,Canyonlands,cany,National Park,UT,https://www.nps.gov/cany/index.htm
+10,Capitol Reef,10,Capitol Reef,Capitol Reef National Park,Capitol Reef,care,National Park,UT,https://www.nps.gov/care/index.htm
+11,Carlsbad Caverns,11,Carlsbad Caverns,Carlsbad Caverns National Park,Carlsbad Caverns,cave,National Park,NM,https://www.nps.gov/cave/index.htm
+12,Channel Islands,12,Channel Islands,Channel Islands National Park,Channel Islands,chis,National Park,CA,https://www.nps.gov/chis/index.htm
+13,Congaree,13,Congaree,Congaree National Park,Congaree,cong,National Park,SC,https://www.nps.gov/cong/index.htm
+14,Crater Lake,14,Crater Lake,Crater Lake National Park,Crater Lake,crla,National Park,OR,https://www.nps.gov/crla/index.htm
+15,Cuyahoga Valley,15,Cuyahoga Valley,Cuyahoga Valley National Park,Cuyahoga Valley,cuva,National Park,OH,https://www.nps.gov/cuva/index.htm
+16,Death Valley,16,Death Valley,Death Valley National Park,Death Valley,deva,National Park,"CA,NV",https://www.nps.gov/deva/index.htm
+17,Denali,17,Denali,Denali National Park & Preserve,Denali,dena,National Park & Preserve,AK,https://www.nps.gov/dena/index.htm
+18,Dry Tortugas,18,Dry Tortugas,Dry Tortugas National Park,Dry Tortugas,drto,National Park,FL,https://www.nps.gov/drto/index.htm
+19,Everglades,19,Everglades,Everglades National Park,Everglades,ever,National Park,FL,https://www.nps.gov/ever/index.htm
+20,Gates Of The Arctic,20,Gates of the Arctic,Gates Of The Arctic National Park & Preserve,Gates Of The Arctic,gaar,National Park & Preserve,AK,https://www.nps.gov/gaar/index.htm
+21,Gateway Arch,21,Gateway Arch,Gateway Arch National Park,Gateway Arch,jeff,National Park,MO,https://www.nps.gov/jeff/index.htm
+22,Glacier Bay,22,Glacier Bay,Glacier Bay National Park & Preserve,Glacier Bay,glba,National Park & Preserve,AK,https://www.nps.gov/glba/index.htm
+23,Glacier,23,Glacier,Glacier National Park,Glacier,glac,National Park,MT,https://www.nps.gov/glac/index.htm
+24,Grand Canyon,24,Grand Canyon,Grand Canyon National Park,Grand Canyon,grca,National Park,AZ,https://www.nps.gov/grca/index.htm
+25,Grand Teton,25,Grand Teton,Grand Teton National Park,Grand Teton,grte,National Park,WY,https://www.nps.gov/grte/index.htm
+26,Great Basin,26,Great Basin,Great Basin National Park,Great Basin,grba,National Park,NV,https://www.nps.gov/grba/index.htm
+27,Great Sand Dunes,27,Great Sand Dunes,Great Sand Dunes National Park & Preserve,Great Sand Dunes,grsa,National Park & Preserve,CO,https://www.nps.gov/grsa/index.htm
+28,Great Smoky Mountains,28,Great Smoky Mountains,Great Smoky Mountains National Park,Great Smoky Mountains,grsm,National Park,"NC,TN",https://www.nps.gov/grsm/index.htm
+29,Guadalupe Mountains,29,Guadalupe Mountains,Guadalupe Mountains National Park,Guadalupe Mountains,gumo,National Park,TX,https://www.nps.gov/gumo/index.htm
+30,Haleakala,30,Haleakal,Haleakala National Park,Haleakal,hale,National Park,HI,https://www.nps.gov/hale/index.htm
+31,Hawai'i Volcanoes,31,Hawai'I Volcanoes,Hawai'i Volcanoes National Park,Hawai'i Volcanoes,havo,National Park,HI,https://www.nps.gov/havo/index.htm
+32,Hot Springs,32,Hot Springs,Hot Springs National Park,Hot Springs,hosp,National Park,AR,https://www.nps.gov/hosp/index.htm
+33,Indiana Dunes,33,Indiana Dunes,Indiana Dunes National Park,Indiana Dunes,indu,National Park,IN,https://www.nps.gov/indu/index.htm
+34,Isle Royale,34,Isle Royale,Isle Royale National Park,Isle Royale,isro,National Park,MI,https://www.nps.gov/isro/index.htm
+35,Joshua Tree,35,Joshua Tree,Joshua Tree National Park,Joshua Tree,jotr,National Park,CA,https://www.nps.gov/jotr/index.htm
+36,Katmai,36,Katmai,Katmai National Park & Preserve,Katmai,katm,National Park & Preserve,AK,https://www.nps.gov/katm/index.htm
+37,Kenai Fjords,37,Kenai Fjords,Kenai Fjords National Park,Kenai Fjords,kefj,National Park,AK,https://www.nps.gov/kefj/index.htm
+38,Kings Canyon,38,Kings Canyon,Kings Canyon National Park,,,,,
+39,Kobuk Valley,39,Kobuk Valley,Kobuk Valley National Park,Kobuk Valley,kova,National Park,AK,https://www.nps.gov/kova/index.htm
+40,Lake Clark,40,Lake Clark,Lake Clark National Park & Preserve,Lake Clark,lacl,National Park & Preserve,AK,https://www.nps.gov/lacl/index.htm
+41,Lassen Volcanic,41,Lassen Volcanic,Lassen Volcanic National Park,Lassen Volcanic,lavo,National Park,CA,https://www.nps.gov/lavo/index.htm
+42,Mammoth Cave,42,Mammoth Cave,Mammoth Cave National Park,Mammoth Cave,maca,National Park,KY,https://www.nps.gov/maca/index.htm
+43,Mesa Verde,43,Mesa Verde,Mesa Verde National Park,Mesa Verde,meve,National Park,CO,https://www.nps.gov/meve/index.htm
+44,Mount Rainier,44,Mount Rainier,Mount Rainier National Park,Mount Rainier,mora,National Park,WA,https://www.nps.gov/mora/index.htm
+45,North Cascades,45,North Cascades,North Cascades National Park,North Cascades,noca,National Park,WA,https://www.nps.gov/noca/index.htm
+46,Olympic,46,Olympic,Olympic National Park,Olympic,olym,National Park,WA,https://www.nps.gov/olym/index.htm
+47,Petrified Forest,47,Petrified Forest,Petrified Forest National Park,Petrified Forest,pefo,National Park,AZ,https://www.nps.gov/pefo/index.htm
+48,Pinnacles,48,Pinnacles,Pinnacles National Park,Pinnacles,pinn,National Park,CA,https://www.nps.gov/pinn/index.htm
+49,Redwood,49,Redwood,Redwood National and State Parks,Redwood,redw,National and State Parks,CA,https://www.nps.gov/redw/index.htm
+50,Rocky Mountain,50,Rocky Mountain,Rocky Mountain National Park,Rocky Mountain,romo,National Park,CO,https://www.nps.gov/romo/index.htm
+51,Saguaro,51,Saguaro,Saguaro National Park,Saguaro,sagu,National Park,AZ,https://www.nps.gov/sagu/index.htm
+52,Sequoia,52,Sequoia,Sequoia National Park,Sequoia & Kings Canyon,seki,National Parks,CA,https://www.nps.gov/seki/index.htm
+53,Shenandoah,53,Shenandoah,Shenandoah National Park,Shenandoah,shen,National Park,VA,https://www.nps.gov/shen/index.htm
+54,Theodore Roosevelt,54,Theodore Roosevelt,Theodore Roosevelt National Park,Theodore Roosevelt,thro,National Park,ND,https://www.nps.gov/thro/index.htm
+55,Virgin Islands,55,Virgin Islands,Virgin Islands National Park,Virgin Islands,viis,National Park,VI,https://www.nps.gov/viis/index.htm
+56,Voyageurs,56,Voyageurs,Voyageurs National Park,Voyageurs,voya,National Park,MN,https://www.nps.gov/voya/index.htm
+57,White Sands,57,White Sands,White Sands National Park,White Sands,whsa,National Park,NM,https://www.nps.gov/whsa/index.htm
+58,Wind Cave,58,Wind Cave,Wind Cave National Park,Wind Cave,wica,National Park,SD,https://www.nps.gov/wica/index.htm
+59,Wrangell - St Elias,59,Wrangell-St. Elias,Wrangell - St Elias National Park & Preserve,Wrangell - St Elias,wrst,National Park & Preserve,AK,https://www.nps.gov/wrst/index.htm
+60,Yellowstone,60,Yellowstone,Yellowstone National Park,Yellowstone,yell,National Park,"ID,MT,WY",https://www.nps.gov/yell/index.htm
+61,Yosemite,61,Yosemite,Yosemite National Park,Yosemite,yose,National Park,CA,https://www.nps.gov/yose/index.htm
+62,Zion,62,Zion,Zion National Park,Zion,zion,National Park,UT,https://www.nps.gov/zion/index.htm

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NPS Locator</title>
+  <link rel="icon" href="static/assets/images/favicon.png">
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- For CSS -->
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>National Parks Locator</title>
+    <link rel="icon" href="static/assets/images/favicon.png">
+
+
+    <!-- Boostrap Stylesheet -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen"> -->
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="static/styles.css" media="screen">
+
+  
+</head>
+
+<body>
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="index.html" id="logo">National Parks           Locator +</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Smart Recommender <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="landscape">Landscape</a></li>
+                  <li><a href="climate">Climate</a></li>
+                  <li><a href="activities">Activities</a></li>
+                  <li><a href="recommendation.html">Recommended</a></li>
+              </ul>
+            </li>
+             <li><a href="comparison.html">Weather</a></li>
+             <li><a href="data.html">Survey Data</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+
+  <!-- The div where to inject map -->
+  <div id="map"></div>
+  
+
+  <!-- API key -->
+  <script type="text/javascript" src="static/config.js"></script>
+  <!-- For JS -->
+  <script type="text/javascript" src="static/logic.js"></script>
+
+    <!-- For HTML (Data) -->
+    <!--  <script type="text/javascript" src="data.html"></script> -->
+
+    <!-- Side navigation -->
+
+<link rel="stylesheet" href="static/sidebar.css" media="screen">
+
+<style> 
+    input[type=submit]{
+      background-color: gray;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 45px;
+      cursor: pointer;
+    }
+    </style>
+
+
+<div class="sidenav">
+    <p>Recommendation System</p>
+    <p>Pick a park to see recommended choices</p>
+    <form action ='/recommended' method="POST" enctype="multipart/form-data">
+        <select id="parks" name = "parks">
+          <option value="Acadia">Acadia</option>
+          <!-- <option value="American Samoa">American Samoa</option> -->
+          <option value="Arches">Arches</option>
+          <option value="Badlands">Badlands</option>
+          <option value="Big Bend">Big Bend</option>
+          <option value="Biscayne">Biscayne</option>
+          <option value="Black Canyon of the Gunnison">Black Canyon of the Gunnison</option>
+          <!-- <option value="Bryce Cannon">Bryce Cannon</option> -->
+          <option value="Canyonlands">Canyonlands</option>
+          <option value="Capitol Reef">Capitol Reef</option>
+          <option value="Carlsbad Caverns">Capitol Reef</option>
+          <option value="Channel Islands">Channel Islands</option>
+          <option value="Congaree">Congaree</option>
+          <option value="Crater Lake">Crater Lake</option>
+          <option value="Cuyahoga Valley">Cuyahoga Valley</option>
+          <option value="Death Valley">Death Valley</option>
+          <option value="Denali">Denali</option>
+          <option value="Dry Tortugas">Dry Tortugas</option>
+          <option value="Everglades">Everglades</option>
+          <option value="Gates of the Arctic">Gates of the Arctic</option>
+          <option value="Gateway Arch">Gateway Arch</option>
+          <option value="Glacier Bay">Glacier Bay</option>
+          <option value="Glacier">Glacier</option>
+          <option value="Grand Canyon">Grand Canyon</option>
+          <option value="Grand Teton">Grand Teton</option>
+          <option value="Great Basin">Great Basin</option>
+          <option value="Great Sand Dunes">Great Sand Dunes</option>
+          <option value="Great Smoky Mountains">Great Smoky Mountains</option>
+          <option value="Guadalupe Mountains">Guadalupe Mountains</option>
+          <option value="Haleakala">Haleakala</option>
+          <option value="Hawai'l Volcanoes">Hawai'l Volcanoes</option>
+          <option value="Hot Springs">Hot Springs</option>
+          <option value="Indiana Dunes">Indiana Dunes</option>
+          <option value="Isle Royale">Isle Royale</option>
+          <option value="Joshua Tree">Joshua Tree</option>
+          <option value="Katmai">Katmai</option>
+          <option value="Kenai Fiords">Kenai Fiords</option>
+          <option value="Kings Canyon">Kings Canyon</option>
+          <option value="Kobuk Valley">Kobuk Valley</option>
+          <option value="Lake Clark">Lake Clark</option>
+          <option value="Lassen Volcanic">Lassen Volcanic</option>
+          <option value="Mammoth Cave">Mammoth Cave</option>
+          <option value="Mesa Verde">Mesa Verde</option>
+          <option value="Mount Rainier">Mount Rainier</option>
+          <option value="North Cascades">North Cascades</option>
+          <option value="Olympic">Olympic</option>
+          <option value="Petrified Forest">Petrified Forest</option>
+          <option value="Pinnacles">Pinnacles</option>
+          <option value="Redwood">Redwood</option>
+          <option value="Rocky Mountain">Rocky Mountain</option>
+          <option value="Saguaro">Saguaro</option>
+          <option value="Sequoia">Sequoia</option>
+          <option value='Shenandoah'>Shenandoah</option>
+          <option value="Theodore Roosevelt">Theodore Roosevelt</option>
+          <option value="Virgin Islands">Virgin Islands</option>
+          <option value="Voyageurs">Voyageurs</option>
+          <option value="White Sands">White Sands</option>
+          <option value="Wind Cave">Wind Cave</option>
+          <option value="Wrangell-St. Elias">Wrangell-St. Elias</option>
+          <option value="Yellowstone">Yellowstone</option>
+          <option value="Yosemite">Yosemite</option>
+          <option value="Zion">Zion</option>
+        </select>
+        <input type="submit" value = 'Submit'>
+      </form>
+      <p>Here are recommendations for {{parks}}</p>
+      <p>{{output[0][0]}} </p><p><a href = {{output[0][2]}} >Website url</a></p> <p>{{output[0][1]}}% match</p> <hr></hr>
+      <p>{{output[1][0]}} </p><p><a href = {{output[1][2]}} >Website url</a></p> <p>{{output[1][1]}}% match</p> <hr></hr>
+      <p>{{output[2][0]}} </p><p><a href = {{output[2][2]}} >Website url</a> </p> <p>{{output[2][1]}}% match</p> <hr></hr>
+      <p>{{output[3][0]}} </p><p><a href = {{output[3][2]}} >Website url</a> </p> <p>{{output[3][1]}}% match</p> <hr></hr>
+      <p>{{output[4][0]}} </p><p><a href = {{output[4][2]}} >Website url</a></p> <p>{{output[4][1]}}% match</p> <hr></hr>
+      <p>{{output[5][0]}} </p><p><a href = {{output[5][2]}} >Website url</a></p> <p>{{output[5][1]}}% match</p> <hr></hr>
+      <p>{{output[6][0]}} </p><p><a href = {{output[6][2]}} >Website url</a> </p> <p>{{output[6][1]}}% match</p> <hr></hr>
+      <p>{{output[7][0]}} </p><p><a href = {{output[7][2]}} >Website url</a> </p> <p>{{output[7][1]}}% match</p> <hr></hr>
+      <p>{{output[8][0]}} </p><p><a href = {{output[8][2]}} >Website url</a> </p> <p>{{output[8][1]}}% match</p> <hr></hr>
+      <p>{{output[9][0]}} </p><p><a href = {{output[9][2]}} >Website url</a> </p> <p>{{output[9][1]}}% match</p> 
+
+    </div>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+  </div>
+
+</body>
+</html>

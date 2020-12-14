@@ -1,0 +1,222 @@
+user_id,landscapes,climates,activities,"Please list any other features/requirements you would be interested in while visiting a National Park (e.g, family-friendly, group tours, ADA compliance, lodging)."
+1,Mountains,Hot,"Water Activities (swimming, boating)",
+2,Forest,Hot,"Water Activities (swimming, boating)","Crowd-free, family-friendly"
+3,Forest,Cold,"Water Activities (swimming, boating)",
+4,Forest,Rain,"Land Activities (bouldering, hiking)",
+5,Forest,Cold,"Leisure Activities (birdwatching, stargazing)",ADA compliance
+6,Mountains,Snow,"Land Activities (bouldering, hiking)",
+7,Forest,Cold,"Land Activities (bouldering, hiking)",
+8,Forest,Cold,"Leisure Activities (birdwatching, stargazing)",
+9,Beach,Hot,"Water Activities (swimming, boating)","Family friendly, lodging"
+10,Mountains,Cold,"Land Activities (bouldering, hiking)",
+11,Beach,Hot,"Water Activities (swimming, boating)",ADA compliance
+12,Forest,Cold,"Leisure Activities (birdwatching, stargazing)",
+13,Mountains,Hot,"Land Activities (bouldering, hiking)",
+14,Mountains,Hot,"Land Activities (bouldering, hiking)",family-friendly
+15,Beach,Hot,"Leisure Activities (birdwatching, stargazing)","Pet Friendly, Campfires, Group Tours, Tent Camping, Showers"
+16,Mountains,Cold,"Land Activities (bouldering, hiking)",Dog friendly
+17,Mountains,Cold,"Land Activities (bouldering, hiking)",
+18,Desert,Cold,"Leisure Activities (birdwatching, stargazing)",
+19,Forest,Rain,"Land Activities (bouldering, hiking)",
+20,Mountains,Cold,"Extreme Activities (canyoneering, caving)",
+21,Mountains,Hot,"Land Activities (bouldering, hiking)",
+22,Forest,Cold,"Leisure Activities (birdwatching, stargazing)","A visitor’s center with a movie about the park is a highlight of the trip for me since I can’t go very far on trails. Food and drink at the visitor’s center is great too, In the parks themselves, I really like social isolation. I want to hear the wind in the trees, the water and animals. I don’t want to be in a tour group or on a crowded trail. I don’t like picnic spots because people tend to trash them. I really hate seeing people act inconsiderate in nature. I wish everyone who enters a park with a kid or pet and food has to pay extra or at least recite rules about not feeding or approaching animals or leaving trash out."
+23,Mountains,Cold,"Land Activities (bouldering, hiking)",
+24,Mountains,Cold,"Land Activities (bouldering, hiking)",Ranger led nature hikes; star gazing
+25,Mountains,Rain,"Land Activities (bouldering, hiking)",Camping
+26,Forest,Snow,"Land Activities (bouldering, hiking)",
+27,Mountains,Hot,"Extreme Activities (canyoneering, caving)",camp sites
+28,Mountains,Hot,"Land Activities (bouldering, hiking)",
+29,Forest,Hot,"Land Activities (bouldering, hiking)",
+30,Forest,Cold,"Land Activities (bouldering, hiking)",Tours
+31,Forest,Cold,"Leisure Activities (birdwatching, stargazing)","Family friendly, guided walks, nice bathroom/shower"
+32,Mountains,Snow,"Land Activities (bouldering, hiking)",Pet friendly and camping area
+33,Mountains,Hot,"Land Activities (bouldering, hiking)","Geological formations, affordable + abundant campgrounds, abundant hiking trails"
+34,Mountains,Cold,"Water Activities (swimming, boating)",
+35,Mountains,Cold,"Land Activities (bouldering, hiking)",Lodging
+36,Forest,Snow,"Land Activities (bouldering, hiking)",Pet-friendly
+37,Mountains,Cold,"Land Activities (bouldering, hiking)",
+38,Mountains,Hot,"Land Activities (bouldering, hiking)",
+39,Forest,Cold,"Land Activities (bouldering, hiking)",
+40,Mountains,Hot,"Land Activities (bouldering, hiking)",
+41,Forest,Cold,"Land Activities (bouldering, hiking)",
+42,Forest,Hot,"Land Activities (bouldering, hiking)",
+43,Mountains,Snow,"Land Activities (bouldering, hiking)",
+44,Forest,Cold,"Extreme Activities (canyoneering, caving)",
+45,Mountains,Cold,"Land Activities (bouldering, hiking)",
+46,Mountains,Snow,"Land Activities (bouldering, hiking)",
+47,Beach,Hot,"Leisure Activities (birdwatching, stargazing)","Lodging, educational experience"
+48,Mountains,Cold,"Land Activities (bouldering, hiking)",
+49,Mountains,Hot,"Land Activities (bouldering, hiking)",
+50,Forest,Hot,"Leisure Activities (birdwatching, stargazing)",Lodging accessible and nearby
+51,Forest,Hot,"Land Activities (bouldering, hiking)",Family friendly bathrooms
+52,Mountains,Cold,"Land Activities (bouldering, hiking)",
+53,Mountains,Hot,"Land Activities (bouldering, hiking)","Tours, how nice the amenities are, how easy it is to get to"
+54,Forest,Cold,"Leisure Activities (birdwatching, stargazing)",
+55,Mountains,Rain,"Land Activities (bouldering, hiking)",JR rangers
+56,Mountains,Cold,"Land Activities (bouldering, hiking)","Trail maps and markings, geocaching, and orienteering"
+57,Mountains,Cold,"Land Activities (bouldering, hiking)",Trail Guides
+58,Mountains,Hot,"Land Activities (bouldering, hiking)","Wildlife sightings, lodging, camping"
+59,Mountains,Hot,"Land Activities (bouldering, hiking)",
+60,Forest,Hot,"Leisure Activities (birdwatching, stargazing)",Fire ring. Car camping option. 
+61,Desert,Hot,"Extreme Activities (canyoneering, caving)",Bike riding on trails. 
+62,Beach,Hot,"Water Activities (swimming, boating)",Learning about the local wildlife and flora prior to hikes or exploring.
+63,Beach,Hot,"Water Activities (swimming, boating)",Not crowded! Clean bathrooms. 
+64,Mountains,Hot,"Land Activities (bouldering, hiking)",
+65,Forest,Snow,"Leisure Activities (birdwatching, stargazing)","Tours (hosted or self-guided), accessible"
+66,Mountains,Cold,"Land Activities (bouldering, hiking)","Family-friendly, luxury lodging"
+67,Mountains,Hot,"Land Activities (bouldering, hiking)","variety of scenery, opportunities to learn from exhibits, rangers"
+68,Mountains,Hot,"Land Activities (bouldering, hiking)",
+69,Mountains,Cold,"Land Activities (bouldering, hiking)",
+70,Forest,Cold,"Leisure Activities (birdwatching, stargazing)",Not too many people (corona); ADA; Nice place to stay nearby; Drivable (corona)
+71,Mountains,Cold,"Land Activities (bouldering, hiking)","family-friendly, camping"
+72,Forest,Hot,"Land Activities (bouldering, hiking)",
+73,Mountains,Hot,"Water Activities (swimming, boating)",ADA compliance
+74,Mountains,Rain,"Land Activities (bouldering, hiking)",
+75,Mountains,Hot,"Land Activities (bouldering, hiking)",
+76,Forest,Hot,"Land Activities (bouldering, hiking)",
+77,Forest,Cold,"Land Activities (bouldering, hiking)",
+78,Mountains,Hot,"Leisure Activities (birdwatching, stargazing)",Luxury glamping
+79,Mountains,Hot,"Land Activities (bouldering, hiking)",
+80,Mountains,Cold,"Land Activities (bouldering, hiking)",Backcountry permitting
+81,Mountains,Hot,"Water Activities (swimming, boating)",Group tours
+82,Mountains,Cold,"Land Activities (bouldering, hiking)",
+83,Desert,Cold,"Land Activities (bouldering, hiking)",Limiting access for RVs
+84,Mountains,Cold,"Land Activities (bouldering, hiking)","family friendly, easy guides to follow, maps"
+85,Mountains,Cold,"Land Activities (bouldering, hiking)",Easy parking. Good trail maps. 
+86,Mountains,Rain,"Land Activities (bouldering, hiking)",
+87,Mountains,Hot,"Land Activities (bouldering, hiking)",Biking
+88,Mountains,Cold,"Land Activities (bouldering, hiking)","primitive camping or tent-only drive-up camping (no RVs, secluded sites, only basic amenities)"
+89,Forest,Rain,"Land Activities (bouldering, hiking)",Hikes that kids can do
+90,Mountains,Cold,"Land Activities (bouldering, hiking)",
+91,Forest,Rain,"Land Activities (bouldering, hiking)",
+92,Beach,Hot,"Leisure Activities (birdwatching, stargazing)","Historical/background info on the park. Things to see visit, list of places. "
+93,Mountains,Cold,"Land Activities (bouldering, hiking)","Would prefer temperate climate (neither hot nor cold), family friendly"
+94,Mountains,Cold,"Land Activities (bouldering, hiking)",Low crowds
+95,Mountains,Cold,"Land Activities (bouldering, hiking)",rustic but comfortable lodge; limitations on crowds; 
+96,Mountains,Rain,"Land Activities (bouldering, hiking)",
+97,Mountains,Cold,"Land Activities (bouldering, hiking)",Family friendly 
+98,Mountains,Cold,"Land Activities (bouldering, hiking)","Lodging, shuttle loops for hikes"
+99,Mountains,Cold,"Land Activities (bouldering, hiking)","family hikes, watering holes"
+100,Mountains,Hot,"Land Activities (bouldering, hiking)","Group tours, lodging star gazing"
+101,Mountains,Cold,"Land Activities (bouldering, hiking)","Not too crowded, peaceful, unhurried"
+102,Mountains,Hot,"Land Activities (bouldering, hiking)",facilities for overnight stays other than camping
+103,Forest,Cold,"Land Activities (bouldering, hiking)","scenic overview, lodging"
+104,Forest,Cold,"Leisure Activities (birdwatching, stargazing)","Good for photo taking, good for familes"
+105,Beach,Cold,"Land Activities (bouldering, hiking)","Scenic drives, we call it “car hiking”"
+106,Forest,Hot,"Extreme Activities (canyoneering, caving)",Dog Friendly
+107,Mountains,Cold,"Water Activities (swimming, boating)",lodging
+108,Mountains,Hot,"Land Activities (bouldering, hiking)",Family-friendly
+109,Mountains,Cold,"Land Activities (bouldering, hiking)",
+110,Mountains,Hot,"Water Activities (swimming, boating)","Kids activities, lodging, guide-led activities"
+111,Mountains,Hot,"Water Activities (swimming, boating)",
+112,Mountains,Cold,"Land Activities (bouldering, hiking)",Night sky programs
+113,Beach,Cold,"Leisure Activities (birdwatching, stargazing)","prefer temperate weather, not hot or cold or wet"
+114,Mountains,Hot,"Land Activities (bouldering, hiking)",
+115,Beach,Hot,"Water Activities (swimming, boating)",
+116,Forest,Cold,"Land Activities (bouldering, hiking)",Lodging
+117,Forest,Hot,"Land Activities (bouldering, hiking)","group tours, good maps, well-marked trails"
+118,Forest,Cold,"Water Activities (swimming, boating)",Family-friendly 
+119,Mountains,Cold,"Land Activities (bouldering, hiking)",
+120,Forest,Cold,"Land Activities (bouldering, hiking)",Cabins / Yurts / Other non-camping Lodging
+121,Mountains,Hot,"Land Activities (bouldering, hiking)","bath houses, paved roads, ample parking"
+122,Forest,Cold,"Land Activities (bouldering, hiking)",Great views. less people
+123,Forest,Cold,"Water Activities (swimming, boating)",Camping
+124,Mountains,Cold,"Leisure Activities (birdwatching, stargazing)",
+125,Desert,Hot,"Land Activities (bouldering, hiking)",
+126,Mountains,Hot,"Land Activities (bouldering, hiking)","Wildlife (bears, wolves, etc.)"
+127,Mountains,Cold,"Leisure Activities (birdwatching, stargazing)","Family-friendly, wild animals are nice"
+128,Mountains,Rain,"Water Activities (swimming, boating)",Lodging
+129,Forest,Rain,"Land Activities (bouldering, hiking)",no shooting
+130,Mountains,Snow,"Land Activities (bouldering, hiking)",
+131,Mountains,Cold,"Land Activities (bouldering, hiking)",Camping
+132,Beach,Hot,"Water Activities (swimming, boating)",educational guide
+133,Beach,Cold,"Land Activities (bouldering, hiking)","ADA Compliance, tours, lodging, not too crowded"
+134,Mountains,Hot,"Land Activities (bouldering, hiking)",
+135,Forest,Cold,"Land Activities (bouldering, hiking)",
+136,Mountains,Hot,"Extreme Activities (canyoneering, caving)",Backpacking/camping
+137,Mountains,Cold,"Land Activities (bouldering, hiking)",Not too crowded
+138,Mountains,Hot,"Land Activities (bouldering, hiking)",lodging
+139,Mountains,Cold,"Land Activities (bouldering, hiking)","family-friendly, lodging"
+140,Mountains,Cold,"Leisure Activities (birdwatching, stargazing)",
+141,Mountains,Hot,"Land Activities (bouldering, hiking)","Backpacking, camping, fishing"
+142,Mountains,Cold,"Land Activities (bouldering, hiking)",lodging
+143,Mountains,Hot,"Land Activities (bouldering, hiking)",
+144,Forest,Hot,"Leisure Activities (birdwatching, stargazing)",
+145,Mountains,Cold,"Land Activities (bouldering, hiking)",
+146,Beach,Hot,"Leisure Activities (birdwatching, stargazing)",Lodging 
+147,Forest,Cold,"Land Activities (bouldering, hiking)",
+148,Forest,Hot,"Land Activities (bouldering, hiking)",
+149,Mountains,Cold,"Land Activities (bouldering, hiking)","temperate climate, family friendly"
+150,Beach,Cold,"Leisure Activities (birdwatching, stargazing)","Lodging, tours, dog friendly"
+151,Mountains,Hot,"Extreme Activities (canyoneering, caving)",lodging and camping
+152,Forest,Hot,"Land Activities (bouldering, hiking)",
+153,Mountains,Hot,"Land Activities (bouldering, hiking)",
+154,Forest,Cold,"Land Activities (bouldering, hiking)","comfortable lodging, good food options, educational opportunities"
+155,Mountains,Hot,"Land Activities (bouldering, hiking)","Huts, chalets in the wilderness."
+156,Forest,Rain,"Land Activities (bouldering, hiking)",Park Headquarters with Rangers present to answer questions about the area
+157,Mountains,Cold,"Land Activities (bouldering, hiking)","family-friendly, camping, hiking"
+158,Mountains,Cold,"Land Activities (bouldering, hiking)","Unique features such as unoque campsites, or hikes that cant be found anywhere else. Also proximity to other parks to be able to see multiple parks in a single trip."
+159,Forest,Cold,"Land Activities (bouldering, hiking)",Distance from home 
+160,Mountains,Cold,"Land Activities (bouldering, hiking)",
+161,Mountains,Snow,"Land Activities (bouldering, hiking)",Deep wilderness 
+162,Forest,Hot,"Water Activities (swimming, boating)",historic markers
+163,Mountains,Hot,"Land Activities (bouldering, hiking)",
+164,Beach,Hot,"Water Activities (swimming, boating)",
+165,Forest,Hot,"Leisure Activities (birdwatching, stargazing)",Ban on Bluetooth speakers
+166,Forest,Hot,"Land Activities (bouldering, hiking)",
+167,Forest,Cold,"Leisure Activities (birdwatching, stargazing)","""Beginner-friendly"" for outdoor newbies"
+168,Forest,Cold,"Land Activities (bouldering, hiking)",Family friendly. Tent camping. Well maintained trails. 
+169,Forest,Cold,"Land Activities (bouldering, hiking)",Lodging
+170,Forest,Cold,"Land Activities (bouldering, hiking)",
+171,Mountains,Hot,"Water Activities (swimming, boating)",
+172,Mountains,Snow,"Land Activities (bouldering, hiking)",
+173,Forest,Cold,"Land Activities (bouldering, hiking)",
+174,Forest,Cold,"Land Activities (bouldering, hiking)",
+175,Mountains,Hot,"Land Activities (bouldering, hiking)",electric shuttle buses
+176,Mountains,Snow,"Land Activities (bouldering, hiking)",
+177,Beach,Cold,"Leisure Activities (birdwatching, stargazing)",
+178,Forest,Hot,"Land Activities (bouldering, hiking)",Family-friendly
+179,Mountains,Cold,"Land Activities (bouldering, hiking)","Family-friendly, no wolves, no hamfish"
+180,Beach,Hot,"Land Activities (bouldering, hiking)",clean bathrooms
+181,Mountains,Cold,"Land Activities (bouldering, hiking)",
+182,Mountains,Cold,"Land Activities (bouldering, hiking)",
+183,Mountains,Hot,"Water Activities (swimming, boating)",camp grounds
+184,Forest,Cold,"Land Activities (bouldering, hiking)","Lodging or campground, visitor center, canoe or kayak or fishing"
+185,Beach,Hot,"Land Activities (bouldering, hiking)","Family friendly, lodging "
+186,Mountains,Hot,"Land Activities (bouldering, hiking)",Mountain biking
+187,Forest,Hot,"Land Activities (bouldering, hiking)",
+188,Mountains,Hot,"Land Activities (bouldering, hiking)",ability to backpack in wilderness without needing advance permit
+189,Mountains,Hot,"Land Activities (bouldering, hiking)",Camping
+190,Mountains,Rain,"Extreme Activities (canyoneering, caving)","White water rafting, trail clean up projects, cabin/tenting"
+191,Mountains,Hot,"Land Activities (bouldering, hiking)","Waterfall hikes, camping, "
+192,Mountains,Hot,"Land Activities (bouldering, hiking)",
+193,Mountains,Cold,"Land Activities (bouldering, hiking)",
+194,Mountains,Cold,"Land Activities (bouldering, hiking)","Family friendly; good, reasonably-priced food"
+195,Mountains,Hot,"Land Activities (bouldering, hiking)",
+196,Mountains,Cold,"Land Activities (bouldering, hiking)",Showers and toilets at campgrounds 
+197,Mountains,Cold,"Land Activities (bouldering, hiking)",
+198,Mountains,Cold,"Extreme Activities (canyoneering, caving)",Lodging
+199,Forest,Cold,"Land Activities (bouldering, hiking)",
+200,Mountains,Hot,"Land Activities (bouldering, hiking)",Mountain biking 
+201,Mountains,Hot,"Land Activities (bouldering, hiking)",
+202,Mountains,Cold,"Land Activities (bouldering, hiking)",
+203,Mountains,Snow,"Land Activities (bouldering, hiking)",
+204,Forest,Hot,"Land Activities (bouldering, hiking)",clean facilities
+205,Mountains,Cold,"Leisure Activities (birdwatching, stargazing)",
+206,Mountains,Cold,"Land Activities (bouldering, hiking)",Wilderness Camping
+207,Forest,Hot,"Land Activities (bouldering, hiking)",Family friendly. Tours
+208,Beach,Cold,"Water Activities (swimming, boating)",
+209,Forest,Cold,"Land Activities (bouldering, hiking)",Dog friendly
+210,Beach,Hot,"Water Activities (swimming, boating)","Lodging, camping, also leisure activities, extreme activities, zip lining, caving, rock climbing, etc."
+211,Beach,Cold,"Leisure Activities (birdwatching, stargazing)",
+212,Mountains,Hot,"Water Activities (swimming, boating)","Not overcrowded, good parking or a good bus system, diversity of trails (some long and hard some easy), places to be sheltered from wind rain heat"
+213,Mountains,Hot,"Land Activities (bouldering, hiking)",
+214,Mountains,Hot,"Land Activities (bouldering, hiking)",Camping available
+215,Forest,Cold,"Land Activities (bouldering, hiking)",
+216,Mountains,Hot,"Land Activities (bouldering, hiking)","cabin rentals, bike and equipment rentals, shuttle service"
+217,Forest,Hot,"Land Activities (bouldering, hiking)",
+218,Mountains,Hot,"Land Activities (bouldering, hiking)",Affordable campsites
+219,Mountains,Hot,"Land Activities (bouldering, hiking)",Campgrounds and possibly “glamping”
+220,Beach,Cold,"Water Activities (swimming, boating)",Camping grounds 
+221,Mountains,Hot,"Land Activities (bouldering, hiking)",

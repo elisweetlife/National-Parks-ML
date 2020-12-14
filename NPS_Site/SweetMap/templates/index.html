@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>NPS Locator</title>
+    <link rel="icon" href="static/assets/images/favicon.png">
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="static/bootstrap.min.css" media="screen">
+
+    <!--  CSS stylesheet -->
+    <link rel="stylesheet" href="static/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">National Parks Recommender + </a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Smart Recommender<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="landscape">Landscape</a></li>
+                  <li><a href="climate">Climate</a></li>
+                  <li><a href="activities">Activities</a></li>
+                </ul>
+              </li>
+              <li><a href="comparison.html">Weather Planning</a></li>
+              <li><a href="map.html">Maps</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">About the National Parks Recommender</h1>
+            <hr class="description-hr"/>
+            <img src="static/assets/images/yose.png" alt="" id="description-image"/>
+            <p>Our small team of data science students decided that it would be worthwhile to build a tool that can help people get out and visit our beautiful National Parks in the U.S. We broke down this project into two phases.
+              Our phase 1 approach was to incorpote a map of all the National Parks in the United States. We also wanted to give the user the oppurtunity to view how many campsites are available, and any associated information
+              that the park may want to alert to the public. We also wanted to include a weather module that would give the user the ability to view historical and 7 day forecast weather to help determine the desired time to visit.
+            </p>
+            <p>Our phase 2 approach built upon our current framework and included a machine learning aspect. We spent a little bit of time surveying the public about National Parks they had visited in the past, and how they rated them (1-5). We also asked some categorical 
+              preference questions about climate, landscape, activites and any other special requests/requirements. We then used a KNN machine learning approach to build a model that can be used to predict which National Park the user may be interested in visiting based on a few clicks on pictures that appeal to them. 
+              This is very similiar to the method Netflix would use to predict a movie for you to watch. 
+            </p>
+            <p>
+              Aspects of the Project:
+            </p>
+            <p>
+              Excel (CSVs) - Store raw Google Form survey responses and park metadata (e.g., latitude/longitude, website URL).
+            </p>
+            <p>
+              Python (Pandas) - Create dataframes from CSVs. Filter, clean, and pivot dataframes. Create additional csv files for reference, further experimentation, and analysis.
+            </p>
+            <p>
+              Python (Scipy) - Convert dataframes to a matrix for use in machine learning algorithm (KNN).
+            </p>
+            <p>
+              Python (Selenium) (Attempted) - Scraping module for access multiple Google review pages from a single session. <a href = 'https://towardsdatascience.com/scraping-google-maps-reviews-in-python-2b153c655fc2'> Source 1</a> <a href = 'https://www.scrapingbee.com/blog/selenium-python/'> Source 2</a>
+            </p>
+            <p>
+              Python (Sklearn) - Recommend similar parks based on user ratings. Makes use of collaborative filtering. Input: favorite park; Output: 10 other parks to visit. <a href ='https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea'>Source code</a>
+            </p>
+            <p>
+              Flask - Runs a local server to load HTML pages and run Python-based functions. 
+            </p>
+            <p>
+              HTML - General layout of the site itself. Displays narrative-based recommender; real-time recommendations; raw survey data; park map; and current weather data.
+            </p>
+            <p>
+              Javascript (Leaflet) - Generates a map of national parks with marker sizes based on survey ratings.
+            </p>
+            <p>
+              Javascript (API) - Retrieves current temperatures for parks and displays on map popups.
+            </p>
+            <p>
+              CSS - Works with the HTML file to create a more appealing display for users to look at
+            </p>
+          </article>
+        </div>
+        <div class="col-md-4">
+
+          <!-- Start of Visualizations imageNav Area -->
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Recommender Tool:  Select Desired Landscape</h2>
+              <hr />
+              <div id="images">
+                <a href="landscape-forest.html"><img src="static/assets/images/landscape-forest.png" alt="Forest" class="imageNav-photo"></a>
+                <a href="landscape-mountain.html"><img src="static/assets/images/landscape-mountains.png" alt="Mountains" class="imageNav-photo"></a>
+                <a href="landscape-beach.html"><img src="static/assets/images/landscape-beach.png" alt="Beach" class="imageNav-photo"></a>
+                <a href="landscape-desert.html"><img src="static/assets/images/landscape-desert.png" alt="Desert" class="imageNav-photo"></a>
+              </div>
+            </div>
+          </section>
+          <!-- End of the Visualizations imageNav Area -->
+
+        </div>
+      </section>
+    </div>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright HEMKK Data Team 2020
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
